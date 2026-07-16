@@ -165,6 +165,42 @@ footer{
     font-size:18px;
 }
 }
+/* Media Page Styling */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-top: -10px;
+}
+
+.video-card {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Make nav horizontal on desktop */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li {
+  display: inline;
+}
+.nav-links a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
 </style>
 
 </head>
