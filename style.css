@@ -217,6 +217,28 @@ footer{
   transform: translateY(-2px);
   box-shadow: 0 8px 16px rgba(102, 126, 234, 0.4);
 }
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* stack nav links on phone */
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 5px 0;
+  }
+  
+  .container {
+    padding: 20px 15px; /* add side padding so nothing touches edge */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%; /* make images never go past screen width */
+    height: auto;
+  }
+}
 </style>
 
 </head>
