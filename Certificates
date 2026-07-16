@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates - Niimatullahi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <h1>My Certificates</h1>
+    
+    <div class="video-card">
+      <h3>Responsive Web Design</h3>
+      
+      <img src="certificate.png" 
+           alt="freeCodeCamp Responsive Web Design Certificate" 
+           style="width: 100%; max-width: 700px; border-radius: 8px; border: 1px solid #ddd; margin: 16px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  
+      <p><strong>Issued by:</strong> freeCodeCamp</p>
+      <p>300+ hours covering HTML, CSS, Flexbox, CSS Grid, and 5 Responsive Web Design Projects</p>
+      
+      <a href="https://www.freecodecamp.org/certification/niima1/responsive-web-design" 
+         target="_blank" 
